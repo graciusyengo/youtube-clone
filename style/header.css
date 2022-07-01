@@ -28,8 +28,12 @@
     align-items: center;
 }
 .search_bar{
-    height: 34px;
+    height: 40px;
     flex: 1;
+}
+.search_bar::placeholder{
+    font-family: roboto;
+    font-size: 16px;
 }
 .search_button{
     height: 40px;
