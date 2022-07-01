@@ -30,7 +30,14 @@
 .search_bar{
     height: 40px;
     flex: 1;
+    padding-left: 10px;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(228, 215, 215);
+    
 }
+
 .search_bar::placeholder{
     font-family: roboto;
     font-size: 16px;
