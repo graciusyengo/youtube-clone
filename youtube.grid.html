@@ -18,7 +18,7 @@
 
 <body>
    
-    <div class="header">
+    <header  class="header">
         <div class="left_section">
           <img  class="hamburger_menus" src="./icons/hamburger-menu.svg" alt="">
           
@@ -32,20 +32,29 @@
             </button>
             <button class="voice_search_button">
                 <img  class="voice_search_icon" src="./icons/voice-search-icon.svg" alt="">
+                <div class="tooltip">Search your voice</div>
             </button>
+           
         </div>
         <div class="right_section">
-           <img class="upload_icon" src="./icons/upload.svg" alt="">
-           <img class="youtube_apps_icon" src="./icons/youtube-apps.svg" alt="">
+            <div class="upload_container_icon">
+                <img class="upload_icon" src="./icons/upload.svg" alt="">
+                <div class="tooltip">create</div>
+            </div>
+            <div class="youtube_apps_container">
+                <img class="youtube_apps_icon" src="./icons/youtube-apps.svg" alt="">
+                <div class="tooltip">youtube apps</div>
+            </div>
            <div class="notification_icon_container">
                 <img class="notification_icon" src="./icons/notifications.svg" alt="">
                 <div class="notifications_count">3</div>
-            
+                <div class="tooltip">youtube apps</div>
+
             </div>
            <img class="current_user_icon" src="./channel_picture/graciusshow-buzz.jpg" alt="">
         </div>
-    </div>
-  <div class="sidebar">
+    </header>
+  <nav class="sidebar">
       <div class="sidebar_link">
           <img src="./icons/home.svg" alt="">
           <div class="home">Home</div>
@@ -70,149 +79,190 @@
         <img src="./icons/youtube-music.svg" alt="">
         <div class="library"> Library</div>
       </div>
-    
-  </div>
-    
-<div class="video_grid">
-    <div class="video_preview">
-        <div class="thumbail_row">
-            <img class="thumbnail" src="./thumbnail/thumbnail-1.webp" alt="">
-            <div class="video_time">12h00</div>
-        </div>
-        <div>
-            <div class="channel_picture">
-                <img  class="profil_picture" src="./channel_picture/channel-1.jpeg" alt="">
+    </nav>
+    <main>
+        <div class="video_grid">
+            <div class="video_preview">
+                <div class="thumbail_row">
+                    <img class="thumbnail" src="./thumbnail/thumbnail-1.webp" alt="">
+                    <div class="video_time">12h00</div>
+                </div>
+                <div class="video_container_channel">
+                    <div class="channel_picture">
+                        <img  class="profil_picture" src="./channel_picture/channel-1.jpeg" alt="">
+                        <div class="video_tooltip">
+                            <img  class="profil_picture_tooltip" src="./channel_picture/channel-1.jpeg" alt="">
+                            <div                class="video_container_para_tooltip">
+                                <p class="video_author_tooltip">Marque gracius</p>
+                                <p class="video_stats_tooltip">15M suscribers</p>
+                            </div>
+                        </div>
+                    </div>
+                   
+                    <div class="video_info">
+                        <p class="video_title">
+                            Talking Tech and AI with Google CEO Sundar Pichai!
+                        </p>
+                        <p class="video_author">
+                            marque gracius
+                        </p>
+                        <p class="video_stats">
+                            3.4M views 	&#8226;  6 months ago
+                        </p>
+                    </div>
+                  
+                </div>
             </div>
-            <div class="video_info">
-                <p class="video_title">
-                    Talking Tech and AI with Google CEO Sundar Pichai!
-                </p>
-                <p class="video_author">
-                    marque gracius
-                </p>
-                <p class="video_stats">
-                    3.4M views 	&#8226;  6 months ago
-                </p>
+            <div class="video_preview">
+                <div class="thumbail_row">
+                    <img class="thumbnail" src="./thumbnail/thumbnail-2.webp" alt="">
+                    <div class="video_time">23h00</div>
+                </div>
+                <div class="video_container_channel">
+                    <div class="channel_picture">
+                        <img  class="profil_picture" src="./channel_picture/channel-2.jpeg" alt="">
+                        <div class="video_tooltip">
+                            <img  class="profil_picture_tooltip" src="./channel_picture/channel-2.jpeg" alt="">
+                            <div                class="video_container_para_tooltip">
+                                <p class="video_author_tooltip">Marque gracius</p>
+                                <p class="video_stats_tooltip">15M suscribers</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="video_info">
+                        <p class="video_title">
+                            
+                        Try Not To Laugh Challenge #9
+                        </p>
+                        <p class="video_author">
+                            marque gracius
+                        </p>
+                        <p class="video_stats">
+                            3.4M views 	&#8226;  19 months ago
+                        </p>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-    <div class="video_preview">
-        <div class="thumbail_row">
-            <img class="thumbnail" src="./thumbnail/thumbnail-2.webp" alt="">
-            <div class="video_time">23h00</div>
-        </div>
-        <div>
-            <div class="channel_picture">
-                <img  class="profil_picture" src="./channel_picture/channel-2.jpeg" alt="">
+            <div class="video_preview">
+                <div class="thumbail_row">
+                    <img class="thumbnail" src="./thumbnail/thumbnail-3.webp" alt="">
+                    <div class="video_time">12h00</div>
+                </div>
+                <div class="video_container_channel">
+                    <div class="channel_picture">
+                        <img  class="profil_picture" src="./channel_picture/channel-3.jpeg" alt="">
+                        <div class="video_tooltip">
+                            <img  class="profil_picture_tooltip" src="./channel_picture/channel-3.jpeg" alt="">
+                            <div                class="video_container_para_tooltip">
+                                <p class="video_author_tooltip">Marque gracius</p>
+                                <p class="video_stats_tooltip">15M suscribers</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video_info">
+                        <p class="video_title">
+                            Talking Tech and AI with Google CEO Sundar Pichai!
+                        </p>
+                        <p class="video_author">
+                            marque gracius
+                        </p>
+                        <p class="video_stats">
+                            3.4M views 	&#8226;  6 months ago
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="video_info">
-                <p class="video_title">
-                    
-Try Not To Laugh Challenge #9
-                </p>
-                <p class="video_author">
-                    marque gracius
-                </p>
-                <p class="video_stats">
-                    3.4M views 	&#8226;  19 months ago
-                </p>
+            <div class="video_preview">
+                <div class="thumbail_row">
+                    <img class="thumbnail" src="./thumbnail/thumbnail-4.webp" alt="">
+                    <div class="video_time">01h00</div>
+                </div>
+                <div class="video_container_channel">
+                    <div class="channel_picture">
+                        <img  class="profil_picture" src="./channel_picture/channel-4.jpeg" alt="">
+                        <div class="video_tooltip">
+                            <img  class="profil_picture_tooltip" src="./channel_picture/channel-4.jpeg" alt="">
+                            <div                class="video_container_para_tooltip">
+                                <p class="video_author_tooltip">Marque gracius</p>
+                                <p class="video_stats_tooltip">15M suscribers</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video_info">
+                        <p class="video_title">
+                            
+        Try Not To Laugh Challenge #9
+                        </p>
+                        <p class="video_author">
+                            marque gracius
+                        </p>
+                        <p class="video_stats">
+                            3.4M views 	&#8226;  19 months ago
+                        </p>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-    <div class="video_preview">
-        <div class="thumbail_row">
-            <img class="thumbnail" src="./thumbnail/thumbnail-3.webp" alt="">
-            <div class="video_time">12h00</div>
-        </div>
-        <div>
-            <div class="channel_picture">
-                <img  class="profil_picture" src="./channel_picture/channel-1.jpeg" alt="">
+            <div class="video_preview">
+                <div class="thumbail_row">
+                    <img class="thumbnail" src="./thumbnail/thumbnail-5.webp" alt="">
+                    <div class="video_time">02h00</div>
+                </div>
+                <div class="video_container_channel">
+                    <div class="channel_picture">
+                        <img  class="profil_picture" src="./channel_picture/channel-5.jpeg" alt="">
+                        <div class="video_tooltip">
+                            <img  class="profil_picture_tooltip" src="./channel_picture/channel-5.jpeg" alt="">
+                            <div                class="video_container_para_tooltip">
+                                <p class="video_author_tooltip">Marque gracius</p>
+                                <p class="video_stats_tooltip">15M suscribers</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video_info">
+                        <p class="video_title">
+                            Talking Tech and AI with Google CEO Sundar Pichai!
+                        </p>
+                        <p class="video_author">
+                            marque gracius
+                        </p>
+                        <p class="video_stats">
+                            3.4M views 	&#8226;  6 months ago
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="video_info">
-                <p class="video_title">
-                    Talking Tech and AI with Google CEO Sundar Pichai!
-                </p>
-                <p class="video_author">
-                    marque gracius
-                </p>
-                <p class="video_stats">
-                    3.4M views 	&#8226;  6 months ago
-                </p>
+            <div class="video_preview">
+                <div class="thumbail_row">
+                    <img class="thumbnail" src="./thumbnail/thumbnail-6.webp" alt="">
+                    <div class="video_time">08h00</div>
+                </div>
+                <div class="video_container_channel">
+                    <div class="channel_picture">
+                        <img  class="profil_picture" src="./channel_picture/channel-6.jpeg" alt="">
+                        <div class="video_tooltip">
+                            <img  class="profil_picture_tooltip" src="./channel_picture/channel-6.jpeg" alt="">
+                            <div                class="video_container_para_tooltip">
+                                <p class="video_author_tooltip">Marque gracius</p>
+                                <p class="video_stats_tooltip">15M suscribers</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="video_info">
+                        <p class="video_title">
+                            
+        Try Not To Laugh Challenge #9
+                        </p>
+                        <p class="video_author">
+                            marque gracius
+                        </p>
+                        <p class="video_stats">
+                            3.4M views 	&#8226;  19 months ago
+                        </p>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-    <div class="video_preview">
-        <div class="thumbail_row">
-            <img class="thumbnail" src="./thumbnail/thumbnail-4.webp" alt="">
-            <div class="video_time">01h00</div>
-        </div>
-        <div>
-            <div class="channel_picture">
-                <img  class="profil_picture" src="./channel_picture/channel-2.jpeg" alt="">
-            </div>
-            <div class="video_info">
-                <p class="video_title">
-                    
-Try Not To Laugh Challenge #9
-                </p>
-                <p class="video_author">
-                    marque gracius
-                </p>
-                <p class="video_stats">
-                    3.4M views 	&#8226;  19 months ago
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="video_preview">
-        <div class="thumbail_row">
-            <img class="thumbnail" src="./thumbnail/thumbnail-5.webp" alt="">
-            <div class="video_time">02h00</div>
-        </div>
-        <div>
-            <div class="channel_picture">
-                <img  class="profil_picture" src="./channel_picture/channel-1.jpeg" alt="">
-            </div>
-            <div class="video_info">
-                <p class="video_title">
-                    Talking Tech and AI with Google CEO Sundar Pichai!
-                </p>
-                <p class="video_author">
-                    marque gracius
-                </p>
-                <p class="video_stats">
-                    3.4M views 	&#8226;  6 months ago
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="video_preview">
-        <div class="thumbail_row">
-            <img class="thumbnail" src="./thumbnail/thumbnail-6.webp" alt="">
-            <div class="video_time">08h00</div>
-        </div>
-        <div>
-            <div class="channel_picture">
-                <img  class="profil_picture" src="./channel_picture/channel-2.jpeg" alt="">
-            </div>
-            <div class="video_info">
-                <p class="video_title">
-                    
-Try Not To Laugh Challenge #9
-                </p>
-                <p class="video_author">
-                    marque gracius
-                </p>
-                <p class="video_stats">
-                    3.4M views 	&#8226;  19 months ago
-                </p>
-            </div>
-        </div>
-    </div>
-
- </div>
-   
-
+        </div>  
+    </main>
 </body>
-
 </html>
