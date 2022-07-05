@@ -4,7 +4,8 @@
     font-size: 14px;
     font-weight: bold;
     line-height: 20px;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
+    width: 222px;
 }
 .video_author,
 .video_stats
@@ -27,13 +28,14 @@
 
 }
 .profil_picture{
-    width: 40px;
+    width: 36px;
     border-radius: 50px;
     
 
 }
 .thumbail_row{
-    margin-bottom: 12px;
+    margin-bottom: 8px;
+    position: relative;
 }
 .thumbnail {
 width: 100%;
@@ -43,5 +45,19 @@ width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 16px;
-    row-gap: 40px;
+    row-gap: 40px;  
+}
+.video_time{
+    font-family: roboto,arial;
+    font-weight: 500;
+    padding: 4px 4px 4px 4px;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;
+    font-size: 14px;
+    
+
 }
