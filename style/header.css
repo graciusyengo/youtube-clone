@@ -67,9 +67,25 @@
     margin-right: 10px;
     cursor: pointer;
     position: relative;
+    
+}
+.search_button:hover .tooltip{
+    opacity: 1;
+
 }
 .search_button .tooltip{
-    
+    position: absolute;
+    left: 10px;
+    bottom: -33px;
+    background-color: rgba(96, 96, 96, 0.9);
+    color: white;
+    padding: 4px 8px 4px 8px;
+    border-radius: 2px;
+    font-size: 12px;
+    opacity: 0;
+    transition: opacity 0.15s;
+    pointer-events: none;/*quand on fait l'hover sur tooltip sont contenus s'affiche or nous voulons seulement que quand on fait l'hover a notre bouton search le contenus du tooltip s'affiche annuler l'hover sur tooltip*/
+
 }
 .search_icon{
     margin-top: 4px;
